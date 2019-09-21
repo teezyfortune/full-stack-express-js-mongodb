@@ -1,0 +1,11 @@
+#node module
+node_modules
+
+#pasword file
+password file
+
+#lock file
+package-lock.json
+
+#fronte-end
+front-end
