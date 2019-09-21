@@ -1,8 +1,8 @@
 const express = require('express');
 const app = express(); 
 const bodyParser = require('body-parser');
-const mongodb = require('../server/models/config')
-const Router = require('../server/Routes/recipes')
+const mongodb = require('./models/config')
+const Router = require('./Routes/recipes')
 
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended:false}))
